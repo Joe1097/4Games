@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="app_name">4Games</string>
+
+    // Conecta4
+    <string name="string_nombre_conecta4">Conecta4!</string>
+    <string name="inciar_juego">Jugar</string>
+    <string name="regresar">Ir al menú de juegos</string>
+    <string name="string_ganador">Ganador:</string>
+    <string name="string_perdedor">Perdedor:</string>
+    <string name="string_puntaje_conecta4">Puntaje: 00</string>
+    <string name="string_fin_del_juego">Fin del juego</string>
+    <string name="string_conecta4">Conecta4</string>
+
+    // Gato
+    <string name="string_nombre_gato">Gato!</string>
+    <string name="turno">Turno de </string>
+    <string name="regresar_menu_juego">Regresar al menú</string>
+    <string name="jugador1">X</string>
+    <string name="jugador2">O</string>
+    <string name="ganador">loco</string>
+
+    // Ahorcado
+    <string name="string_nombre_ahorcado">Ahorcado!</string>
+    <string name="string_categoria">Categoría:</string>
+    <string name="string_dificultad">Dificultad:</string>
+    <string name="string_jugar">Jugar</string>
+    <string name="string_oportunidades">Oportunidades: 6</string>
+    <string name="string_letras_usadas">Letras usadas: </string>
+    <string name="string_palabra_cifrada_default">-------</string>
+    <string name="string_perdiste">Perdiste!</string>
+    <string name="string_palabra">Palabra: </string>
+    <string name="string_puntaje">Puntaje: 60</string>
+    <string name="string_menu_principal">Ir al menú</string>
+    <string name="string_ganaste">Ganaste!!!</string>
+
+    <string name="string_q">q</string>
+    <string name="string_w">w</string>
+    <string name="string_e">e</string>
+    <string name="string_r">r</string>
+    <string name="string_t">t</string>
+    <string name="string_y">y</string>
+    <string name="string_u">u</string>
+    <string name="string_i">i</string>
+    <string name="string_o">o</string>
+    <string name="string_p">p</string>
+    <string name="string_a">a</string>
+    <string name="string_s">s</string>
+    <string name="string_d">d</string>
+    <string name="string_f">f</string>
+    <string name="string_g">g</string>
+    <string name="string_h">h</string>
+    <string name="string_j">j</string>
+    <string name="string_k">k</string>
+    <string name="string_l">l</string>
+    <string name="string_ñ">ñ</string>
+    <string name="string_z">z</string>
+    <string name="string_x">x</string>
+    <string name="string_c">c</string>
+    <string name="string_v">v</string>
+    <string name="string_b">b</string>
+    <string name="string_n">n</string>
+    <string name="string_m">m</string>
+
+</resources>

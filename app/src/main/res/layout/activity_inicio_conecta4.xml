@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woodtetxture"
+    tools:context=".Conecta4.Inicio_Conecta4" >
+
+    <TextView
+        android:id="@+id/textView_titulo_conecta4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/string_conecta4"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_memorama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="irAlMenuDeJuegos"
+        android:text="@string/regresar"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ahorcado" />
+
+    <Button
+        android:id="@+id/button_ahorcado"
+        android:layout_width="117dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="empezarJuego"
+        android:text="@string/inciar_juego"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_titulo_conecta4" />
+
+</android.support.constraint.ConstraintLayout>

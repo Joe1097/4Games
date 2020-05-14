@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woodtetxture"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Memorama.Juego_Memorama">
+
+    <TextView
+        android:id="@+id/textView_TurnoMemorama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Turno de"
+        android:textColor="@color/icons"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_titulo_conecta4"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="Jugador 1: 0"
+        android:textColor="@color/icons"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_Puntos_j2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Jugador 2: 0"
+        android:textColor="@color/icons"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/i1"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i2"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i3"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i4"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/i5"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i6"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i7"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i8"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/i9"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i10"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i11"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i12"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/i13"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i14"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i15"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+        <ImageButton
+            android:id="@+id/i16"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/questionmark" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnJ_RegresarAlMenu_Memorama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="regresarAlMenu"
+        android:text="Regresar al menú de juegos"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gris"
+    tools:context=".Ahorcado.Perdio_Ahorcado">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="304dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="@string/string_perdiste"
+        android:textColor="@color/icons"
+        android:textSize="64sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_palabra_perdio"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="palabra:"
+        android:textColor="@color/icons"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView_puntaje_perdio"
+        android:layout_width="252dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="puntaje:"
+        android:textColor="@color/icons"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_palabra_perdio" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="irAlMenu"
+        android:text="Ir al menú"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_puntaje_perdio" />
+</android.support.constraint.ConstraintLayout>

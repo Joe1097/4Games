@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Conecta4.FinJuego_Conecta4">
+
+    <TextView
+        android:id="@+id/textView_NombrePerdedor"
+        android:layout_width="253dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/string_perdedor"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_PuntajeGanador" />
+
+    <Button
+        android:id="@+id/button_gato"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="irAlMenu"
+        android:text="@string/string_menu_principal"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_PuntajePerdedor" />
+
+    <TextView
+        android:id="@+id/textView_PuntajePerdedor"
+        android:layout_width="252dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/string_puntaje_conecta4"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_NombrePerdedor" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/string_fin_del_juego"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_NombreGanador"
+        android:layout_width="251dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="@string/string_ganador"
+        android:textColor="@color/icons"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView_PuntajeGanador"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/string_puntaje_conecta4"
+        android:textColor="@color/icons"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_NombreGanador" />
+
+</android.support.constraint.ConstraintLayout>

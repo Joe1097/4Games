@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colors"
+    tools:context=".MenuPrincipal">
+
+    <Button
+        android:id="@+id/button_memorama"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="onClick"
+        android:text="Memorama"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_ahorcado"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="Ahorcado"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_memorama" />
+
+    <Button
+        android:id="@+id/button_gato"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="onClick"
+        android:text="Gato (2P)"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ahorcado" />
+
+    <Button
+        android:id="@+id/button_conecta4"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/yellow"
+        android:onClick="onClick"
+        android:text="Conecta 4 (2P)"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_gato" />
+
+    <Button
+        android:id="@+id/button_puntuaciones"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/primary_text"
+        android:onClick="onClick"
+        android:text="Puntuaciones"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_conecta4" />
+
+</android.support.constraint.ConstraintLayout>

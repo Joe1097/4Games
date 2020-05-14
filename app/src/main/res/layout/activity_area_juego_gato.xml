@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/pagina_de_libreta"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Gato.Inicio_Gato">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="Gato!"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="    Turno:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/turno"
+            android:layout_width="34dp"
+            android:layout_height="38dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/equis" />
+
+        <TextView
+            android:id="@+id/tjugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/i1"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+
+            <ImageButton
+                android:id="@+id/i2"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+
+            <ImageButton
+                android:id="@+id/i3"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/i4"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+
+            <ImageButton
+                android:id="@+id/i5"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+
+            <ImageButton
+                android:id="@+id/i6"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/i7"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+
+            <ImageButton
+                android:id="@+id/i8"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+
+            <ImageButton
+                android:id="@+id/i9"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gato" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_RegresarAlMenu_Gato"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="Regresar al menú de juegos"
+        android:textAllCaps="false"
+        android:textColor="@color/icons"
+        android:textSize="18sp" />
+
+</LinearLayout>
